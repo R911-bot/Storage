@@ -1,0 +1,1 @@
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe $client = new-object System.Net.WebClient;$client.DownloadFile('https://i.imgur.com/0sFg0CS.jpg' , 'C:\Users\Public\Documents\doge.jpg');reg add 'HKCU\Control Panel\Desktop' /v WallPaper /d '%USERPROFILE%\doge.jpg' /f;RUNDLL32.EXE USER32.DLL,UpdatePerUserSystemParameters ,1 ,True;exit
